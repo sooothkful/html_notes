@@ -1,0 +1,101 @@
+HTML NOTES:
+_____________________________________________________________________________________________________________________________________________
+RANDOM
+_____________________________________________________________________________________________________________________________________________
+
+	USE RELATIVE LINKS WHEREVER POSSIBLE
+
+	LEAVE CLEAR SIGNPOST IF LINKING TO RESOURCES THAT WILL BE DOWNLOADED
+
+	EMAIL - USE <a href="mailto:nowhere@timbuktu.org">Send Email </a>
+
+	FOR TERMS AND DESCRIPTIONS USE:
+		- DESCRIPTION LIST - use <dl> instead of <ol> or <ul>
+		- DESCRIPTION TERMS - use <dt> insead of <li>
+
+	FOR QUOTES & CITING MATERIAL
+		-BLOCK QUOTE
+		<blockquote cite="https://developer.kb.org/en">
+		<p><strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+  		Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+		</blockquote>
+
+		-INLINE QUOTE
+		<p>The quote element — <code>&lt;q&gt;</code> — is <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">intended
+		for short quotations that don't require paragraph breaks.</q></p>
+
+
+	ABBREVIATIONS
+		USE: <acronym> or <abbr>
+		<p><abbr title="National Aeronatics and Space Administration">NASA</abbr> sure does some exciting work.</p>
+
+	CONTACT DETAILS
+		<address>can include address and phone and email in here in whatever tags or lists you want</address>
+
+	SUPERSCRIPT AND SUBSCRIPT
+		<sub> & <sup>
+
+	REPRESENTING COMPUTER CODE:
+		<code> - for generic pieces of code
+		<pre> - for whitespace
+		<var> - for variable names
+		<kbd> - for keyboard input
+		<samp> - for output of program
+
+	TIME
+		<time>
+
+_____________________________________________________________________________________________________________________________________________
+PUT IN HEAD
+_____________________________________________________________________________________________________________________________________________
+
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="author" content="KB">
+	<meta name="description" content="explanation">
+
+
+	KEYWORDS - PUT IN DESCRIPTION
+
+	CSS/BOILERPLATE LINK
+
+	SCRIPTS
+
+	FAVICON LINK 
+		go to favicon generator online to generate for each device type
+
+	OPEN GRAPH DATA (to create nice card on facebook - see docs: https://ogp.me/)
+		EXAMPLE:
+		<meta property="og:image" content="https://developer.cdn.mozilla.net/static/img/opengraph-logo.dc4e08e2f6af.png">
+		<meta property="og:description" content="The Mozilla Developer Network (MDN) provides
+		information about Open Web technologies including HTML, CSS, and APIs for both Web sites
+		and HTML5 Apps. It also documents Mozilla products, like Firefox OS.">
+		<meta property="og:title" content="Mozilla Developer Network">
+
+	TWITTER CARD - https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards
+		<meta name="twitter:title" content="Mozilla Developer Network">
+
+_____________________________________________________________________________________________________________________________________________
+IN BODY
+_____________________________________________________________________________________________________________________________________________
+
+	<header>
+	<nav>
+	<main> - for content unique to that page
+		<article> - encloses block of related content
+		<aside> - not related to main content
+		<section>
+	<footer>
+
+
+NON-SEMANTIC WRAPPERS - should always include attribute class with these
+	<div> - block
+	<span> - inline
+
+LINE BREAK - <br>
+
+HORIZONTAL RULE - <hr>
+
+
+
+
